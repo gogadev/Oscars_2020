@@ -1,0 +1,61 @@
+.main-list {
+  width: 95vw;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 0.5rem;
+  justify-content: center;
+  justify-items: center;
+  margin: 0.5rem auto;
+  border: 6px solid lightgoldenrodyellow;
+}
+
+.main-container {
+  margin: 1rem;
+  display: grid;
+  margin-left: 5rem;
+  justify-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.info {
+  width: 100%;
+}
+
+.actor-name {
+  text-align: center;
+  color: rgb(179, 153, 6);
+  margin-top: 0.3rem;
+}
+
+
+.info h4 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.main-image {
+  width: 100%;
+  zoom: 2.5;
+  transition: all 2s ease-out;
+  border-top: 2px solid goldenrod;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.main-image:hover {
+  padding: 0.2rem;
+  opacity: 1;
+}
+
+.btn {
+  padding: 0.3rem 0.5rem;
+  border: none;
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: grey;
+  font-size: 1rem;
+}
+

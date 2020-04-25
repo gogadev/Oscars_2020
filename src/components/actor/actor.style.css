@@ -1,0 +1,58 @@
+.details {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+}
+
+.the-title {
+  width: 400px;
+  color: goldenrod;
+  font-weight: 100;
+  border-bottom: 5px solid lightgoldenrodyellow;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.img {
+  border-bottom: 2px solid gold;
+  width: 400px;
+  height: 450px;
+}
+
+.name {
+  width: 400px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0.4rem auto;
+  background: lightgoldenrodyellow;
+}
+
+.movie-title {
+  margin: 0.4rem auto;
+  color: rgb(226, 197, 32);
+  font-weight: 100;
+}
+
+.synopsis {
+  text-align: center;
+  width: 400px;
+  font-size: 1.3rem;
+  border: 1px solid rgb(209, 181, 25);
+  padding: 0.2rem;
+  color: darkgrey;
+  letter-spacing: 2px;
+}
+
+.text {
+  width: 400px;
+  margin: 0.5rem auto;
+  opacity: 0.8;
+  padding: 0.2rem;
+}
+
+.winner-img {
+  width: 11%;
+}

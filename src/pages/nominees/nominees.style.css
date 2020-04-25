@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Amita&display=swap");
+
+.nominees {
+  width: 95vw;
+  margin: 0.3rem auto;
+  transform: translateY(-3rem);
+}
+
+.main-title {
+  text-align: center;
+  color: darkgoldenrod;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.section-title {
+  text-align: center;
+  color: darkgoldenrod;
+  text-transform: uppercase;
+  margin: 1.5rem auto;
+  font-size: 1.8rem;
+  font-weight: 100;
+  border: 1px dotted goldenrod;
+  width: 50%;
+}
+
+.nominees img {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  margin: 0rem auto;
+}
+
+.nominees .btn {
+  display: flex;
+  margin: 0.5rem auto;
+}
+
+.year {
+  font-weight: 100;
+  font-family: "Amita", cursive;
+}
